@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="signupbody">
+    <div class="backdiv">
+        <a href="login.html" target="bottom" id="baak">BACK</a>
+    </div>
+    <div class="signup">
+    <form action="login.html" method="post">
+            <p style="color: #d5b942;
+            font-weight: 1000;
+            font-size: 24px;"><U>SIGN UP</U></p>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" value="male"><label for="male">Male</label>
+            <input type="radio" name="gender" value="female"><label for="female">Female</label><br><br>
+            <label for="DOB">Enter your date of birth: </label>
+            <input type="date" name="date of birth"> <label for="DOB"></label><br><br>
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email"><label for="email"></label><br><br>
+            <label for="full-address">Full Address</label>
+            <textarea id="full-address" name="full_address" placeholder="Enter your full address 
+            (Street, City, State, ZIP, Country)" required></textarea><br><br>
+            <label for="postal-code">Postal/ZIP Code</label>
+            <input type="text" id="postal-code" name="postal_code" placeholder="Enter ZIP or 
+            postal code" required><br><br>
+            <label for="country">Country</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select your country</option>
+                <option value="US">United States</option>
+                <option value="CA">Canada</option>
+                <option value="UK">United Kingdom</option>
+                <option value="AU">Australia</option>
+                <option value="IN">India</option>
+                <option value="DE">Germany</option>
+                <option value="FR">France</option>
+                <option value="BR">Brazil</option>
+                <option value="JP">Japan</option>
+                <option value="CN">China</option>
+            </select>
+            <br><br>
+            <label for="username">Enter a username: </label>
+            <input type="text" name="username"><label for="username"></label><br><br>
+            <label for="password">Enter a password: </label>
+            <input type="text" name="password"><label for="password"></label><br><br>
+            <label for="FrontEnd">FrontEnd</label>
+            <input type="checkbox" name="FrontEnd" value="Frontend">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="HTML" value="HTML"><br><br>
+            <input type="Submit" value="Create an account">
+        </form>
+    </div>
+</body>
+</html>
